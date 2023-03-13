@@ -1,0 +1,293 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+li{list-style: none;}
+img{vertical-align: top; border: none;}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+address { font-style: normal; }
+
+
+
+:root {
+    --main-color1:#f4900e;
+    --main-color2:#ba70a5;
+    --main-color3:#c19596;
+    --main-color4:#c2b497;
+    --main-op-color1: rgba(123,112,172,0.7);
+    --main-op-color2: rgba(186,112,165,0.7);
+    --main-op-color3: rgba(193,149,150,0.7);
+    --main-op-color4: rgba(194,180,151,0.7);
+}
+
+body{
+    font-family: '나눔고딕' , sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #2d2d2d;
+    background: #ccc;
+}
+
+/*헤더*/
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: url('/galaxy/img/main_visual.jpg') center center;
+}
+
+header > ul {
+    display: flex;
+    
+    
+    
+}
+
+header > div > h1{
+    width: 15%;
+}
+
+header > div > h1 img{
+    width: 85%;
+}
+
+header > ul > li{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+header > div{
+    width: 100%;
+    
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav{
+    display: flex;
+    
+}
+
+header .nav li{
+    margin-right: 20px;
+}
+
+header .sns_web{
+    display: flex;
+}
+
+header > div >h1 img{
+    width: 85%;
+}
+
+.mobile_toprealres{
+    display: none;
+}
+
+header .sns_web li{
+    background: blueviolet;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+
+/*비주얼*/
+.inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mobile {
+    display: none;
+}
+
+
+.visual {
+   
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size:cover ;
+    background: url('../img/main_visual.jpg') center center;
+    
+}
+
+.visual h2{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+.visual h2 img{
+    width: 300px;
+}
+
+.visual ul{
+    display: flex;
+    
+    width: 1200px;
+}
+
+
+
+
+.visual > ul > li{
+    text-align: center;
+    width: 25%;
+    color: #fff;
+    overflow: hidden;
+}
+
+.visual .rollover {
+    display: none;
+}
+
+.visual .rollout{
+    width: 25%;
+}
+
+.visual > ul > li:nth-child(1){
+    background-color: #f4900e ;
+}
+
+.visual > ul > li:nth-child(2){
+    background-color: #ba70a5;
+}
+
+.visual > ul > li:nth-child(3){
+    background-color: #c19596;
+}
+
+.visual > ul > li:nth-child(4){
+    background-color: #c2b497 ;
+}
+
+
+.open > div{
+    text-align: center;
+    padding: 25px 0;
+    
+
+}
+
+.open > ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.open > ul li{
+    width: 25%;
+}
+
+.open > ul li img{
+    width: 100%;
+}
+
+
+
+.review{
+   
+    display: flex;
+}
+
+.review > div{
+    width: 50%;
+}
+
+.realres {
+    display: flex;
+    flex-direction:column;
+   
+    justify-content: center;
+    align-items: center;
+    background: url(../img/main_real_res_visual.jpg) center center no-repeat;
+    background-size:cover ;
+    padding: 0 100px;
+    
+
+}
+
+
+
+
+.realres h3{
+    padding: 40px 0 30px;
+}
+
+.realres p{
+    padding-bottom: 30px;
+}
+
+
+.realres a{
+    background: blueviolet;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+.bestre ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.bestre ul li{
+    width: 50%;
+    position: relative;
+}
+
+.bestre ul li img{
+    width: 100%;
+}
+
+.besticon {
+    background: blueviolet;
+    position: absolute;
+    padding: 10px 10px;
+    color: #fff;
+   top: 0;
+   left: 0;
+
+}
+
+.bestre ul li{
+    background: #fff;
+    
+    
+}
+
+.quickmenu ul{
+    
+    display: flex;
+}
+
+
+.quickmenu ul li{
+    background-color: #ba70a5;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.quickmenu ul li img{
+    width: 50px;
+}
+
+
+
